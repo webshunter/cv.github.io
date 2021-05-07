@@ -2,6 +2,7 @@ var m = div();
 
 globalThis.m = m;
 
+m.css('float','left')
 m.css('width','250px')
 m.css('margin','20px')
 m.css('padding','20px')
@@ -46,6 +47,20 @@ function menuAct(){
 
 }
 
+// profile menu
+
+childes(m, [0]).child(
+    div()
+)
+
+childes(m, [0, 0]).el.css({
+    textAlign: 'center',
+    marginBottom: '12px'
+})
+
+childes(m, [0, 0]).child(
+    h3().text('Gugus Darmayanto')
+)
 
 // create menu
 childes(m, [0]).child(
@@ -80,7 +95,4 @@ childes(m, [0]).child(
     li().css(styleMenu).click(menuAct).text('Contact')
 )
 
-
-
 // bootstrap 5 button navbar
-
