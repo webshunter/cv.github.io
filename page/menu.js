@@ -7,10 +7,9 @@ m.css('width','250px')
 m.css('margin','20px')
 m.css('padding','20px')
 m.css('height','calc(100vh - 80px)')
-m.css('background','rgba(125,125,125,0.4)')
+m.css('background','rgba(1,50,67,0.6)')
 m.css('borderRadius','5px')
 m.css('overflow-y','auto')
-m.css('boxShadow','2px 2px 20px rgba(125,125,125,0.2)')
 // bootstrap 5 navbar
 
 m.child(
@@ -24,7 +23,7 @@ childes(m, [0]).el.css({
 var styleMenu = {
     padding: '12px 10px',
     cursor: 'pointer',
-    borderBottom: '1px solid #777',
+    borderBottom: '1px solid rgba(25, 181, 254, 1)',
 }
 
 // menu on click do some thing
