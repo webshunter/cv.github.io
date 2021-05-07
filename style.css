@@ -2,13 +2,19 @@
     padding: 0;
     margin: 0;
 }
-body, html {
-    height: 100%;
-}
 
 body{
-    background-image: url('./bg.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background-color: black;
+    color: white;
+}
+
+.menu li{
+    transition: 1s;
+}
+.menu li.active{
+    background-color: #777;
+}
+
+.menu li:hover{
+    background-color: #777;
 }

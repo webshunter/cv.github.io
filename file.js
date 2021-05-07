@@ -700,3 +700,15 @@ function loads(arr = [], success, errorf) {
             errorf(script)
         });
 }
+
+function childes(el = null , err = []){
+    var e = el;
+    for (let x = 0; x < err.length; x++) {
+        if((err.length - 1)== x){
+            e = e.getChild(err[x])        
+        }else{
+            e = e.getChild(err[x]).el;       
+        }
+    }
+    return e;
+}
