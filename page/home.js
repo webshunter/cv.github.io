@@ -14,4 +14,9 @@ home.child(
     )
 )
 
-childes(home, [0,0]).el.text('Halaman Utama')
+childes(home, [0,0]).child(
+    h1().text('Gugus Darmayanto').css('margin-bottom', '20px').css('font-family', 'Roboto')
+)
+childes(home, [0,0]).child(
+    h3().text('Web Developer')
+)
