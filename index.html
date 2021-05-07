@@ -18,7 +18,7 @@
       (async function root() {
         document.body.appendChild(div().id("root").css('height', '100%').get());
         loads(
-          ["page/home.js","page/menu.js", "a.js"],
+          ["page/home.js?v=1","page/menu.js?v=1", "a.js?v=1"],
           function () {
             domp("root", exh);
           },
