@@ -7,7 +7,7 @@ m.css('width','250px')
 m.css('margin','20px')
 m.css('padding','20px')
 m.css('height','calc(100vh - 80px)')
-m.css('background','#233')
+m.css('background','rgba(125,125,125,0.3)')
 m.css('borderRadius','5px')
 m.css('overflow-y','auto')
 m.css('boxShadow','2px 2px 20px rgba(125,125,125,0.2)')
@@ -24,7 +24,7 @@ childes(m, [0]).el.css({
 var styleMenu = {
     padding: '12px 10px',
     cursor: 'pointer',
-    borderBottom: '1px solid #222',
+    borderBottom: '1px solid #777',
 }
 
 // menu on click do some thing

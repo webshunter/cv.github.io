@@ -5,7 +5,7 @@ home.child(
     div().css({
         width: "calc(100% - 310px)",
         display: "inline-block",
-        background: "#233",
+        background: "rgba(125,125,125,0.4)",
         borderRadius: "5px",
         textAlign: "left",
     })
