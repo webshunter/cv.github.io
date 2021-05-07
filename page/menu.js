@@ -20,14 +20,11 @@ childes(m, [0]).el.css({
     listStyle: 'none'
 })
 
-// 
-
 var styleMenu = {
     padding: '12px 10px',
     cursor: 'pointer',
     borderBottom: '1px solid #222',
 }
-
 
 // menu on click do some thing
 
@@ -40,7 +37,6 @@ function menuAct(){
 
     Array.from(aw.parent.childNodes).forEach(function(el,i){
         var text = el.innerText;
-        console.log(text);
         if (cek == text) {
             el.className = 'active';
         }else{
